@@ -1,0 +1,14 @@
+| meter|SYLL_TAG1 |SYLL_TAG1..1 |SYLL_TAG2 |SYLL_TAG3 |SYLL_TAG4 |SYLL_TAG5 |SYLL_TAG6 |SYLL_TAG7 |SYLL_TAG7..1 |SYLL_TAG8 |SYLL_TAG9 |SYLL_TAG10 |SYLL_TAG11 |SYLL_TAG12 |SYLL_TAG13 | NUM_L| COMMENT|
+|-----:|:---------|:------------|:---------|:---------|:---------|:---------|:---------|:---------|:------------|:---------|:---------|:----------|:----------|:----------|:----------|-----:|:-------|
+|    11|jo        |NA           |i         |puis      |a         |ler       |mais      |i         |NA           |av        |rai       |gua        |rant       |NA         |NA         |   329||
+|    11|jo        |NA           |oi        |al        |cor       |ner       |quë       |guai      |NA           |res       |në        |viv        |rat        |NA         |NA         |  2106||
+|    12|jo        |NA           |en        |cun       |quis      |e         |es        |co        |ce           |ë         |va        |les        |is         |lon        |de         |  2329|Still one extra syl.|
+|    11|jo        |NA           |ai        |cun       |té        |i         |ad        |mais      |NA           |quë       |sept      |li         |we         |es         |NA         |  2757|Pb with _liwees_: graphic form should indicate li.ˈwe.es, in this case the only way to get a wellformed line is to have a 6épC with _jo ai_ -> _j'ai_|
+|    11|së        |NA           |jo        |ai        |pa        |renz      |en        |i         |NA           |ad        |nul       |si         |proz       |NA         |NA         |  2903||
+|    11|res       |NA           |punt      |rol       |lant      |jo        |i         |puis      |NA           |a         |ler       |mult       |ben        |NA         |NA         |   254||
+|    11|liv       |NA           |rez       |lë        |mei       |jo        |en        |fe        |NA           |rai       |la        |jus        |ti         |ce         |NA         |   498||
+|    11|pur       |NA           |ço        |lë        |juz       |jo        |a         |pend      |re           |e         |a         |mu         |rir        |NA         |NA         |  3826|_JO_ is here in 4épC, it does not count|
+|    12|res       |NA           |punt      |dux       |nei       |mes       |jo        |i         |NA           |rai       |par       |vost       |rë         |dun        |NA         |   246||
+|    11|li        |NA           |dou       |zë        |per       |quë       |jo        |a         |NA           |vei       |ë         |lai        |sét        |NA         |NA         |  2408||
+|    12|i         |ve           |e         |i         |vo        |rιë       |quë       |jo        |NA           |a         |vei       |ë          |tant       |chers      |NA         |  2404||
+|    12|u         |NA           |est       |mar       |si        |lιë       |quë       |jo        |NA           |a         |vei       |ë          |man        |dét        |NA         |  2768||
