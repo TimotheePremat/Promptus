@@ -2,7 +2,7 @@
 |-----:|:---------|:------------|:---------|:---------|:---------|:---------|:---------|:---------|:------------|:---------|:---------|:----------|:----------|:----------|:----------|-----:|:-------|
 |    11|jo        |NA           |i         |puis      |a         |ler       |mais      |i         |NA           |av        |rai       |gua        |rant       |NA         |NA         |   329||
 |    11|jo        |NA           |oi        |al        |cor       |ner       |quë       |guai      |NA           |res       |në        |viv        |rat        |NA         |NA         |  2106||
-|    12|jo        |NA           |en        |cun       |quis      |e         |es        |co        |ce           |ë         |va        |les        |is         |lon        |de         |  2329|Still one extra syl.|
+|    12|jo        |NA           |en        |cun       |quis      |e         |es        |co        |ce           |ë         |va        |les        |is         |lon        |de         |  2329|Pb: the PAM has removed a _l'_ in _Jo l'en_|
 |    11|jo        |NA           |ai        |cun       |té        |i         |ad        |mais      |NA           |quë       |sept      |li         |we         |es         |NA         |  2757|Pb with _liwees_: graphic form should indicate li.ˈwe.es, in this case the only way to get a wellformed line is to have a 6épC with _jo ai_ -> _j'ai_|
 |    11|së        |NA           |jo        |ai        |pa        |renz      |en        |i         |NA           |ad        |nul       |si         |proz       |NA         |NA         |  2903||
 |    11|res       |NA           |punt      |rol       |lant      |jo        |i         |puis      |NA           |a         |ler       |mult       |ben        |NA         |NA         |   254||
