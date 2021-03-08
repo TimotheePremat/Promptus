@@ -1,0 +1,1 @@
+The repo contains tabular files (in markdown format) of functionnal monosyllables that should/can be be elided for metrical reasons, in Roland (_La Chanson de Roland_) and Alexis (_Vie de Saint Alexis_).
