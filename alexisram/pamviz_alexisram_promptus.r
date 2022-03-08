@@ -26,12 +26,12 @@ setwd("~/Documents/GitHub/Promptus/alexisram/alexisram")
 ##Import global data
         PAM_raw_xlsx <- read_excel("all.xlsx")
         PAM_raw_xlsx_non_corr <- read_excel("all_non_corr.xlsx")
-    
+
     #First, let's apply some transformations to clean up and properly reorganize data!
     ##Moove columns
         PAM_raw_xlsx <- PAM_raw_xlsx %>% relocate(meter, ces_3, ces_4, ces_5, ces_6, ces_7)
         PAM_raw_xlsx_non_corr <- PAM_raw_xlsx_non_corr %>% relocate(meter, ces_3, ces_4, ces_5, ces_6, ces_7)
-    
+
     ##Delete uneven lines (which contains syllables and not tags)
         toDelete <- seq(1, nrow(PAM_raw_xlsx), 2)
         PAM_tag <- PAM_raw_xlsx[ toDelete ,]
@@ -103,9 +103,9 @@ geom_text(data=PAM_tag_epC_non_corr, stat='count', aes(label=..count..), vjust=-
     coord_trans(y='sqrt') +
     scale_x_continuous(breaks=c(7,8,9,10,11,12,13,14,15)) +
     scale_y_continuous(breaks=c(5,10,50,150,1000,4000)) +
-    annotate("text", x = 13.25, y = 550, label = "With normal elisions, \u03B31 = -0.07**") +
+    annotate("text", x = 13.25, y = 550, label = "With normal elisions, \u03B31 = -0.41**") +
     annotate("rect", xmin = 11.8, xmax=12.2, ymin= 525, ymax=570, fill="grey40") +
-    annotate("text", x = 13.25, y = 500, label = "With custom elisions, \u03B31 = -0.42**") +
+    annotate("text", x = 13.25, y = 500, label = "With custom elisions, \u03B31 = -0.08**") +
     annotate("rect", xmin = 11.8, xmax=12.2, ymin= 480, ymax=525, fill="grey20")
 
 
@@ -133,12 +133,12 @@ knitr::kable(PAM_md_non_corr, format = "latex", align = "lrr")
 
 
 DISTRIB_lines_both
-    ggsave(DISTRIB_lines_both, filename = "distrib_meter_both.png", width=25, height=20.13, units="cm", scale=1, dpi="retina")
+   ggsave(DISTRIB_lines_both, filename = "distrib_meter_both.png", width=25, height=20.13, units="cm", scale=1, dpi="retina")
 #DISTRIB_lines_non_corr
 
 #Skewness
-PAM_tag_epC_filtered <- filter(PAM_tag_epC, meter == 8 | meter == 9 | meter == 11 | meter == 12 | meter == 13 | meter == 14)
-PAM_tag_epC_non_corr_filtered <- filter(PAM_tag_epC_non_corr, meter == 8 | meter == 9 | meter == 11 | meter == 12 | meter == 13 | meter == 14)
+PAM_tag_epC_filtered <- filter(PAM_tag_epC, meter == 8 | meter == 9 | meter == 11 | meter == 12)# | meter == 13 | meter == 14)
+PAM_tag_epC_non_corr_filtered <- filter(PAM_tag_epC_non_corr, meter == 8 | meter == 9 | meter == 11 | meter == 12)# | meter == 13 | meter == 14)
 
 
 linetype_corr <- PAM_tag_epC_filtered$meter
