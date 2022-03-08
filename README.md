@@ -1,2 +1,2 @@
 # Pomptus
-Repo for datasets regarding a paper with E. Poggio proposed to Promptus
+Datasets and scripts regarding a paper with E. Poggio submitted to Promptus
