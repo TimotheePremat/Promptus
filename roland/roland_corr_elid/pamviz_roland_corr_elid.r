@@ -1,4 +1,4 @@
-#Timothée Premat | 08/03/2021
+#Timothée Premat | 02/04/2022
 #Script to print plots based on PAM (Poggio & Premat, 2019 ; Premat & Poggio, [to appear]) analysis results
     ## Poggio, Enzo & Timothée Premat (2019). "Le PAM, un Programme d'Analyse Métrique pour le français médiéval"[= PAM: a software for analysis of medieval French metrics], in : Actes des Rencontres lyonnaises des jeunes chercheurs en linguistique historique, under the dir. of Timothée Premat & Ariane Pinche, Lyon : Diachronies contemporaines, pp. 59-70. ⟨https://hal.archives-ouvertes.fr/hal-02320550⟩
     ## Premat, Timothée & Enzo Poggio ([to appear]). "Restituer des fragments de phonologie avec le PAM (Programme d’Analyse Métrique) : l’élision de schwa et des voyelles pleines dans les monosyllabes fonctionnels en très ancien français." Accepted for publication in the journal Promptus.
